@@ -68,22 +68,28 @@ const Solution = () => {
     </section>
 
      
-      <section className="flex flex-col md:flex-row items-center px-4 py-12 space-y-6 md:space-y-0 md:space-x-10 mt-60">
-        <div className="md:w-1/3 ms-60">
-          <h2 className="text-3xl font-semibold ">Who are we</h2>
-          <p className="text-gray-600 mt-4">
-          DSolutions is an AI-powered customer platform with all the software, integrations, and resources you need to connect your marketing, sales, and customer service. HubSpot's connected platform enables you to grow your business faster by focusing on what matters most: your customers.
-          Get a demo to learn about our premium software, or get started with our full suite of free tools and upgrade as you grow.
-          </p>
-          <button className="mt-8 bg-blue-600 text-white px-4 py-2 rounded mr-4">Get Demo</button>
-          <button className="mt-8 bg-white text-blue-500 px-4 py-2 rounded border border-blue-600">
-            Know More
-          </button>
-        </div>
-        <div className="md:w-1/2">
-          <img src={laptopImage} alt="About Us" className="rounded-lg shadow-md md:w-3/4 h-90" />
-        </div>
-      </section>
+    <section className="flex flex-col md:flex-row items-center px-4 py-12 space-y-6 md:space-y-0 md:space-x-10 mt-60">
+  <div className="md:w-1/3 w-full text-center md:text-left ms-40">
+    <h2 className="text-3xl font-semibold">Who are we</h2>
+    <p className="text-gray-600 mt-4">
+      DSolutions is an AI-powered customer platform with all the software, integrations, and resources you need to connect your marketing, sales, and customer service. HubSpot's connected platform enables you to grow your business faster by focusing on what matters most: your customers. Get a demo to learn about our premium software, or get started with our full suite of free tools and upgrade as you grow.
+    </p>
+
+    <button className="mt-8 bg-blue-600 text-white px-4 py-2 rounded mr-4">Get Demo</button>
+    <button className="mt-8 bg-white text-blue-500 px-4 py-2 rounded border border-blue-600">
+      Know More
+    </button>
+  </div>
+
+  <div className="md:w-1/2 w-full flex justify-center">
+    <img 
+      src={laptopImage} 
+      alt="About Us" 
+      className="rounded-lg shadow-md w-full max-w-sm md:max-w-md h-auto object-contain"
+    />
+  </div>
+</section>
+
 
       
     
